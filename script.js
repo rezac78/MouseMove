@@ -1,14 +1,11 @@
-// DOM => Document Object Model
 
 document.onmousemove = animateCircle;
 
 function animateCircle(event) {
   var circle = document.createElement('div')
-  // console.log(circle)
   var colors = ["#f00", "#6cf", "#0f0", "#00f"]
   circle.setAttribute('class', 'circle')
 
-  // console.log(event)
 
   circle.style.left = event.clientX + "px"
   circle.style.top = event.clientY + "px"
