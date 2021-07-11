@@ -1,0 +1,35 @@
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.bist {
+  font-size: 20px;
+}
+
+.si {
+  font-size: 30px;
+}
+
+.chehel {
+  font-size: 40px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  position: absolute;
+  border-radius: 15px;
+}
